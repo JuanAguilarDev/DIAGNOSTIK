@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+#textNote {
+    font-weight: bolder;
+    font-size: 45px;
+    color: #FA3154;
+}
+
+#textInfo {
+    font-size: 20px;
+}
+
+#diseaseTest {
+    border-radius: 10px;
+}
+
+#diseaseList,
+#questionsList {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#listItem {
+    list-style: none;
+}
+
+#userName {
+    font-weight: 300;
+}
+
+#btnSelect {
+    width: 200px !important;
+}
+
+#next {
+    display: none;
+}
+
+#btnYes,
+#btnNo {
+    width: 150px;
+}
+
+#finishBtn {
+    width: 500px;
+}

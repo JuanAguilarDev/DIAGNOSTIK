@@ -1,0 +1,35 @@
+body{
+    background-image: url('file:../img/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgImages{
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo-part{
+    background-color: rgba(255,255,255,0.7);
+    width: 50vw;
+    height: 100vh;
+}
+
+.des-part{
+    background-color: rgba(0, 0, 0, .55);
+    width: 50vw;
+    height: 100vh;
+}
+
+
+#logoAb{
+    width: 900px;
+    position: absolute;
+    left: -140px;
+    top: 50px;
+}
+
+
+#btnStarted{
+    width:80%; 
+}

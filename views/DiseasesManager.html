@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mdb.min.css">
+    <link rel="stylesheet" href="../css/DiseasesManager.css">
+</head>
+
+<body>
+    <nav class="bg-dark" id="nav">
+        <div class="container py-4 ">
+            <div class="row justify-content-between">
+                <div class="col-4 text-start text-light">
+                    <h2 class="fw-bolder">¡Bienvenido: <span id="userName"></span>!</h2>
+                </div>
+                <div class="col-4 text-end">
+                    <div class="row flex-row-reverse justify-content-center align-items-center text-light">
+                        <div class="col-6">
+                            <h4 class="fw-bolder">Administrador</h4>
+                        </div>
+                        <div class="col-5 text-end">
+                            <button class="btn btn-danger " id="logOutBtn">Salir</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container py-5">
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    <div>
+                        <img src="../img/docAdm.png">
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <div id="info">
+                        <h3 id="textNote">Nota importante</h3>
+                        <p id="textInfo">El modo <span class="fw-bolder">administrador</span> le permite al usuario realizar cambios en los datos que se han registrado sobre enfermedades o proporcionar nuevos datos para poder hacer uso de estos en la aplicación. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="row my-4 justify-content-between">
+                <div class="col-12">
+                    <h2 class="text-center fw-bolder">Administración de enfermedades</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-7" id="diseasesContainer">
+                    <h3 class="my-2">Enfermedades Registradas</h3>
+                    <hr id="separator">
+                    <div id="diseases">
+                        <ul class="list-group" id="diseasesList">
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-5 d-flex align-items-center" id="option">
+                    <div class="optionsContainer col-12 p-3 ">
+                        <a class="btn btn-success col-12" href="./CreateDisease.html">
+                        Agregar
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="../js/DiseasesManager.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mdb.min.css">
+    <link rel="stylesheet" href="../css/SignIn.css">
+</head>
+
+<body>
+    <div class="bgDark d-flex align-items-center justify-content-center">
+        <div class="container d-flex justify-content-center mt-5">
+            <img id="logo" src="../img/logoAbout.png" alt="logo">
+            <div class="form-content">
+                <form id="loginForm">
+                    <div class="form-container p-4">
+                        <div class="text-start text-dark">
+                            <h2 class="bold">Inicio</h2>
+                        </div>
+
+                        <div class="form-container m-2">
+                            <p class="form-text">Inicie sesión para comenzar</p>
+                        </div>
+                        <!-- Email input -->
+                        <div class="form-outline mb-4">
+                            <input type="email" id="email" class="form-control bginput" required/>
+                            <label class="form-label lblinput" for="email">Correo</label>
+                        </div>
+
+                        <!-- Password input -->
+                        <div class="form-outline mb-4">
+                            <input type="password" id="password" class="form-control bginput" required/>
+                            <label id="lblPassword" class="form-label lblinput" for="password">Contraseña</label>
+                        </div>
+
+                        <!-- 2 column grid layout for inline styling -->
+                        <div class="mb-4">
+                            <div class="col text-center">
+                                <!-- Simple link -->
+                                <p>¿No tiene una cuenta? <a href="./SignUp.html" class="fw-bolder">Registrarse</a></p>
+                            </div>
+                        </div>
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary btn-block">Inicio</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../js/mdb.min.js"></script>
+    <script type="text/javascript" src="../js/SignIn.js"></script>
+</body>
+
+</html>

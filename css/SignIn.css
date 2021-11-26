@@ -1,0 +1,34 @@
+body {
+    background-image: url('file:../img/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgDark {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+}
+
+.form-content {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 500px;
+    border-radius: 20px;
+    animation: bounce;
+    animation-duration: 2s;
+}
+
+#logo {
+    width: 200px;
+    position: absolute;
+    top: 90px;
+}
+
+.bginput {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    color: #fff !important;
+}
+
+.lblinput {
+    color: #ccc !important;
+}

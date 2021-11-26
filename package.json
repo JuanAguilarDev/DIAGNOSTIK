@@ -1,0 +1,20 @@
+{
+  "name": "diagnostik",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exias 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^15.3.2",
+    "electron-packager": "^15.4.0"
+  },
+  "dependencies": {
+    "mongoose": "^6.0.13"
+  }
+}

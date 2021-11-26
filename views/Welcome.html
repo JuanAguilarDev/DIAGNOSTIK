@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mdb.min.css">
+    <link rel="stylesheet" href="../css/Welcome.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav class="bg-dark" id="nav">
+        <div class="container py-4 ">
+            <div class="row justify-content-between">
+                <div class="col-4 text-start text-light">
+                    <h2 class="fw-bolder">¡Bienvenido: <span id="userName"></span>!</h2>
+                </div>
+                <div class="col-4 text-end">
+                    <div class="row justify-content-around">
+                        <a class="btn btn-primary mt-2 col-5" id="activityBtn" href="./Activity.html">Actividad</a>
+                        <button class="btn btn-danger mt-2 col-5" id="logOutBtn">Salir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-6 d-flex justify-content-center align-items-center">
+                    <div id="info">
+                        <h3 id="textNote">Nota importante</h3>
+                        <p id="textInfo">Recuerde que <span class="fw-bolder">DIAGNOSTIK</span> es solo una herramienta de diagnostico express sin una certificación oficial para ser tomado como veredicto valido, para una información mas precisa debe acudir a su medico</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div>
+                        <img src="../img/doc.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5 mt-4">
+            <h2 class="fw-bolder my-3 text-center">Comencemos, conteste de forma conciente. </h2>
+            <div class="row bg-dark" id="diseaseTest">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                    <div class="carousel-inner">
+                        <!-- First -->
+                        <div class="carousel-item active ">
+                            <div class="container text-light py-3">
+                                <h3>Elija el sintoma principal que usted presenta: </h3>
+                            </div>
+                            <div class="d-block w-100 d-flex justify-content-center">
+                                <div class="col-12">
+                                    <div class="p-3 row ">
+                                        <ul id="diseaseList">
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- Second -->
+                        <div class="carousel-item  ">
+                            <div class="container text-light py-3">
+                                <h3>Conteste la pregunta que sea mas cercana a su caso: </h3>
+                            </div>
+                            <div class="d-block w-100 d-flex justify-content-center">
+                                <div class="col-12">
+                                    <div class="p-3 row">
+                                        <ul id="questionsList">
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Third -->
+                        <div class="carousel-item  ">
+                            <div class="d-block w-100 d-flex justify-content-center">
+                                <div class="col-12">
+                                    <div class="p-3 row">
+                                        <div id="answer" class="container text-light">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../js/Welcome.js"></script>
+</body>
+
+</html>

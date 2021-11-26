@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mdb.min.css">
+    <link rel="stylesheet" href="../css/UpdateDisease.css">
+</head>
+
+<body>
+    <a id="backbtn" class="btn btn-dark" href="./DiseasesManager.html">Back</a>
+    <div class="container text-center" id="msg">
+        <p id="msgText">La enfermedad y sus características han sido actualizadas exitosamente.</p>
+    </div>
+    <div class="container d-flex justify-content-center">
+        <div class="col-8">
+            <h2 class="fw-bolder my-3 text-center">Bienvenido, actualice la información.</h2>
+            <form id="diseaseForm">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre del sintoma</label>
+                    <input type="text" class="form-control" id="name" placeholder="Nombre del sintoma." required>
+                </div>
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                    <div class="carousel-inner">
+                        <!-- First -->
+                        <div class="carousel-item active ">
+                            <div class="d-block w-100 d-flex justify-content-center">
+                                <div class="col-12">
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Pregunta</label>
+                                        <textarea class="question" rows="4" placeholder="Escriba una pregunta correspondiente al síntoma. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Causa</label>
+                                        <textarea class="answer" rows="4" placeholder="Escriba un diagnostico correspondiente al síntoma y que a su vez responda la pregunta anteriormente escrita. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Consejo</label>
+                                        <textarea class="advice" rows="4" placeholder="Escriba algún consejo de como tratar esta Diagnostico con respecto a la enfermedad. " required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Second -->
+                        <div class="carousel-item  ">
+                            <div class="d-block w-100 d-flex justify-content-center">
+                                <div class="col-12">
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Pregunta</label>
+                                        <textarea class="question" rows="4" placeholder="Escriba una pregunta correspondiente al síntoma. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Causa</label>
+                                        <textarea class="answer" rows="4" placeholder="Escriba un diagnostico correspondiente al síntoma y que a su vez responda la pregunta anteriormente escrita. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Consejo</label>
+                                        <textarea class="advice" rows="4" placeholder="Escriba algún consejo de como tratar esta Diagnostico con respecto a la enfermedad. " required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Third -->
+                        <div class="carousel-item ">
+                            <div class="d-block w-100 d-flex justify-content-center">
+                                <div class="col-12">
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Pregunta</label>
+                                        <textarea class="question" rows="4" placeholder="Escriba una pregunta correspondiente al síntoma. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Causa</label>
+                                        <textarea class="answer" rows="4" placeholder="Escriba un diagnostico correspondiente al síntoma y que a su vez responda la pregunta anteriormente escrita. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Consejo</label>
+                                        <textarea class="advice" rows="4" placeholder="Escriba algún consejo de como tratar esta Diagnostico con respecto a la enfermedad. " required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Fourth -->
+                        <div class="carousel-item  ">
+                            <div class="d-block w-100 d-flex justify-content-center">
+                                <div class="col-12">
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Pregunta</label>
+                                        <textarea class="question" rows="4" placeholder="Escriba una pregunta correspondiente al síntoma. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Causa</label>
+                                        <textarea class="answer" rows="4" placeholder="Escriba un diagnostico correspondiente al síntoma y que a su vez responda la pregunta anteriormente escrita. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Consejo</label>
+                                        <textarea class="advice" rows="4" placeholder="Escriba algún consejo de como tratar esta Diagnostico con respecto a la enfermedad. " required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Fifth -->
+                        <div class="carousel-item  ">
+                            <div class="d-block w-100 d-flex justify-content-center">
+                                <div class="col-12">
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Pregunta</label>
+                                        <textarea class="question" rows="4" placeholder="Escriba una pregunta correspondiente al síntoma. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Causa</label>
+                                        <textarea class="answer" rows="4" placeholder="Escriba un diagnostico correspondiente al síntoma y que a su vez responda la pregunta anteriormente escrita. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Consejo</label>
+                                        <textarea class="advice" rows="4" placeholder="Escriba algún consejo de como tratar esta Diagnostico con respecto a la enfermedad. " required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Sixth -->
+                        <div class="carousel-item ">
+                            <div class="d-block w-100 d-flex justify-content-center">
+                                <div class="col-12">
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Pregunta</label>
+                                        <textarea class="question" rows="4" placeholder="Escriba una pregunta correspondiente al síntoma. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Causa</label>
+                                        <textarea class="answer" rows="4" placeholder="Escriba un diagnostico correspondiente al síntoma y que a su vez responda la pregunta anteriormente escrita. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Consejo</label>
+                                        <textarea class="advice" rows="4" placeholder="Escriba algún consejo de como tratar esta Diagnostico con respecto a la enfermedad. " required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Seventh -->
+                        <div class="carousel-item ">
+                            <div class="d-block w-100 d-flex justify-content-center">
+                                <div class="col-12">
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Pregunta</label>
+                                        <textarea class="question" rows="4" placeholder="Escriba una pregunta correspondiente al síntoma. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Causa</label>
+                                        <textarea class="answer" rows="4" placeholder="Escriba un diagnostico correspondiente al síntoma y que a su vez responda la pregunta anteriormente escrita. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Consejo</label>
+                                        <textarea class="advice" rows="4" placeholder="Escriba algún consejo de como tratar esta Diagnostico con respecto a la enfermedad. " required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Eighth -->
+                        <div class="carousel-item ">
+                            <div class="d-block w-100 d-flex justify-content-center">
+                                <div class="col-12">
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Pregunta</label>
+                                        <textarea class="question" rows="4" placeholder="Escriba una pregunta correspondiente al síntoma. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Causa</label>
+                                        <textarea class="answer" rows="4" placeholder="Escriba un diagnostico correspondiente al síntoma y que a su vez responda la pregunta anteriormente escrita. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Consejo</label>
+                                        <textarea class="advice" rows="4" placeholder="Escriba algún consejo de como tratar esta Diagnostico con respecto a la enfermedad. " required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Nineth -->
+                        <div class="carousel-item">
+                            <div class="d-block w-100 d-flex justify-content-center">
+                                <div class="col-12">
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Pregunta</label>
+                                        <textarea class="question" rows="4" placeholder="Escriba una pregunta correspondiente al síntoma. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Causa</label>
+                                        <textarea class="answer" rows="4" placeholder="Escriba un diagnostico correspondiente al síntoma y que a su vez responda la pregunta anteriormente escrita. " required></textarea>
+                                    </div>
+                                    <div class="p-3 row">
+                                        <label for="name" class="form-label">Consejo</label>
+                                        <textarea class="advice" rows="4" placeholder="Escriba algún consejo de como tratar esta Diagnostico con respecto a la enfermedad. " required></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class=" container d-flex justify-content-between my-3">
+                        <button class="btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <img src="../img/prev.png" alt="">
+                          </button>
+                        <button class="btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <img src="../img/next.png" alt="">
+                          </button>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary form-control mb-3">Actualizar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/update.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/mdb.min.css">
+    <link rel="stylesheet" href="../css/SignUp.css">
+</head>
+
+<body>
+    <div class="bgDark">
+        <div class="container text-center" id="msg">
+            <p id="msgText"></p>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <img id="logo" src="../img/logoAbout.png" alt="">
+                <div class="col-6 img-part d-flex align-items-center justify-content-center">
+                    <div class="image-container d-flex align-items-center justify-content-center">
+                        <div class="signup-image">
+                            <img id="img-comp" src="../img/sign-in.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 form-part d-flex align-items-center justify-content-center">
+                    <div class="form-content">
+                        <form id="userForm">
+                            <div class="form-container p-4">
+                                <div class="text-start text-light mb-4">
+                                    <h2 class="bolder">Cree una cuenta</h2>
+                                </div>
+
+                                <div class="form-container m-2">
+                                    <p class="phr">Diagnostik esta para ayudarte!</p>
+                                </div>
+                                <!-- Username input -->
+                                <div class="form-outline mb-4">
+                                    <img class="input-img" src="../img/user.png" alt="">
+                                    <input type="text" id="username" class="form-control bginput" required/>
+                                    <label class="form-label lblinput" for="username">Apodo</label>
+                                </div>
+
+
+                                <!-- Email input -->
+                                <div class="form-outline mb-4">
+                                    <img class="input-img" src="../img/mail.png" alt="">
+                                    <input type="email" id="email" class="form-control bginput" required />
+                                    <label class="form-label lblinput" for="email">Correo</label>
+                                </div>
+
+                                <!-- Password input -->
+                                <div class="form-outline mb-4">
+                                    <img class="input-img" src="../img/password.png" alt="">
+                                    <input type="password" id="password" class="form-control bginput" required/>
+                                    <label id="lblPassword" class="form-label lblinput" for="password">Contraseña</label>
+                                </div>
+
+                                <!-- Code input -->
+                                <div class="form-outline mb-4">
+                                    <img class="input-img" src="../img/code.png" alt="">
+                                    <input type="password" id="code" class="form-control bginput" />
+                                    <label id="lblCode" class="form-label lblinput" for="code">Código administrador (opcional)</label>
+                                </div>
+
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input" type="checkbox" id="terms" required/>
+                                    <label class="form-check-label" id="terms-text" for="terms"> Acepto los términos y condiciones </label>
+                                </div>
+
+                                <!-- Submit button -->
+                                <button type="submit" class="btn btn-primary btn-block mb-5">Registrarse</button>
+
+                                <!-- 2 column grid layout for inline styling -->
+                                <div class="mb-4">
+                                    <div class="col text-center">
+                                        <!-- Simple link -->
+                                        <p id="sIn">¿Ya tienes una cuenta? <a href="./SignIn.html" class="text-info"><b>Iniciar</b></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../js/mdb.min.js"></script>
+    <script type="text/javascript" src="../js/user.js"></script>
+</body>
+
+</html>
