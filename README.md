@@ -1,5 +1,5 @@
 # DIAGNOSTIK
-Scholar proyect 
+School project 
 
 
 ## Ejecutar el programa
